@@ -28,6 +28,7 @@ This is the backend API for the 'Trail // Track' application.
 |--------|------------------------|-------------------|
 | GET   | `/adventurecomment`             | `adventurecomment#index`    |
 | POST   | `/adventurecomment/addnew`     | `adventurecomment#create`    |
+| PATCH   | `/adventurecomment/comment_id`     | `adventurecomment#edit`    |
 | DELETE | `adventurecomment/comment_id`   |`adventurecomment#delete` |
 
 ## Main Application
